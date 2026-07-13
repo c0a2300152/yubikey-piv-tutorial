@@ -10,6 +10,14 @@ YubiKey の PIV 機能を使って RSA-OAEP 暗号化・復号を体験するデ
 
 WSL2 は USB デバイスを自動認識しないため、**Windows 側の操作が必要**。
 
+#### usbipd-win のインストール（初回のみ・未インストールの場合）
+
+```powershell
+winget install usbipd
+```
+
+インストール後は PowerShell を再起動する。
+
 **PowerShell（管理者）で実行：**
 
 ```powershell
