@@ -99,17 +99,6 @@ sudo $(which node) demo.js
 
 ---
 
-## YubiKey と本番プロジェクトの連携
-
-`pubkey.pem` を `dev/keys/` にコピーして `yubikeyMock.js` の代わりに使う。
-
-```bash
-cp pubkey.pem ../dev/keys/yubikey_public.pem
-```
-
-復号側は `pkcs11-tool` 経由で YubiKey に問い合わせる形に差し替え。
-
----
 
 ## 注意事項
 
