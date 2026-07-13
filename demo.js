@@ -22,7 +22,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const PUBKEY_PATH  = join(__dirname, 'pubkey.pem');
 const ENC_TMP      = join(__dirname, 'encrypted.tmp.bin');
 const DEC_TMP      = join(__dirname, 'decrypted.tmp.bin');
-const MESSAGE      = 'Hello, YubiKey3';
+const MESSAGE      = 'Hello, YubiKey!';
 const PIN          = '123456'; // デフォルト PIN
 
 // --- YubiKey PKCS#11 ライブラリのパス検索 ---
