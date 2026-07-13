@@ -1,0 +1,3 @@
+pubkey.pem
+*.tmp.bin
+node_modules/
