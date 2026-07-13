@@ -4,6 +4,21 @@ YubiKey の PIV 機能を使って RSA-OAEP 暗号化・復号を体験するデ
 
 ---
 
+## セットアップ
+
+```bash
+git clone https://github.com/c0a2300152/yubikey-piv-tutorial.git
+cd yubikey-piv-tutorial
+```
+
+最新版に更新する場合：
+
+```bash
+git pull
+```
+
+---
+
 ## 実行手順
 
 ### Step 0: YubiKey を WSL に接続する（毎回）
